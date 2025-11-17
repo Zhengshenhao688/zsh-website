@@ -7,11 +7,13 @@
     <link rel="stylesheet" href="styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- 引入 Google Fonts 字体：Poppins、Shadows Into Light、Nunito，用于全站文字样式 -->
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Shadows+Into+Light&display=swap"
       href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap"
       rel="stylesheet"
     />
+    <!-- 引入 Font Awesome 图标库（大量通用图标，例如 GitHub 图标） -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
@@ -19,12 +21,13 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <!-- 引入 Devicon 技术图标库（用于展示 HTML / CSS / JS / React / Git 等技能图标） -->
     <link
       rel="stylesheet"
       type="text/css"
       href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
     />
-    <!-- Link Swiper's CSS -->
+    <!-- Swiper 轮播组件的 CSS 样式 -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
@@ -45,6 +48,7 @@
         </div>
       </nav>
     </header>
+    <!-- ===== 关于我（About）版块 ===== -->
     <section id="about-section">
       <h2>Hello World, I'm Zheng Shenhao!</h2>
       <div class="headshot">
@@ -67,16 +71,20 @@
       </div>
       <div class="social-links">
         </a>
+        <!-- GitHub 图标（来自 Font Awesome Brands）在 https://fontawesome.com -->
         <a href="https://github.com/Zhengshenhao688" target="_blank">
           <i class="fa-brands fa-github"></i>         
         </a>
       </div>
     </section>
+    <!-- ===== 分割线 ===== -->
     <div class="divider"></div>
+    <!-- ===== 项目展示（Projects）版块 ===== -->
     <section id="projects-section">
       <h2>Projects</h2>
       <div class="project-subsection">
         <h3>Website</h3>
+        <!-- 网站项目轮播图（Swiper） -->
         <div class="swiper card-swiper">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
@@ -365,10 +373,13 @@
       -->
 
     </section>
+    <!-- ===== 分割线 ===== -->
     <div class="divider"></div>
+    <!-- ===== 技能（Skills）版块 ===== -->
     <section id="skills-section">
   <h2>Skills</h2>
   <div class="skills-container">
+    <!-- 技能图标（来自 Devicon 技术图标库） https://devicon.dev/  -->
     <!-- 前端基础 -->
     <i class="devicon-html5-plain-wordmark" title="HTML5"></i>
     <i class="devicon-css3-plain-wordmark" title="CSS3"></i>
@@ -384,17 +395,20 @@
     <i class="fa-solid fa-database" title="Databases (Basics)"></i> -->
   </div>
 </section>
+    <!-- ===== 分割线 ===== -->
     <div class="divider"></div>
+    <!-- ===== 留言板（Leave a Message）版块 ===== -->
     <section id="leave-message-section">
       <h2>Leave a Message!</h2>
       <p>coming soon :)</p>
     </section>
 
-    <!-- Swiper JS -->
+    <!-- ===== 页脚（Footer）区域 ===== -->
     <footer>
       <p>&copy; <span id="year"></span> Zheng Shenhao. All Rights Reserved.</p>
     </footer>
 
+    <!-- Swiper 轮播组件的 JS & 初始化代码 -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
       document.addEventListener("DOMContentLoaded", function () {
